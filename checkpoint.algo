@@ -1,0 +1,28 @@
+debut
+
+    lng := 0
+    nbmots := 0
+    nbvoyelles := 0
+
+    Lire caractere
+
+    Tant que caractere ≠ '.'
+        lng := lng + 1
+        
+        si caractere est dans ['a', 'e', 'i', 'o', 'u', 'y', 'A', 'E', 'I', 'O', 'U', 'Y']
+         Alors nbvoyelles := nbvoyelles + 1
+        fin Si
+        Si caractere = " " 
+            alors nbmots := nbmots + 1
+        Fin Si
+
+        Lire caractere
+    Fin Tant que
+
+    nbMots := nbMots + 1
+
+
+    Ecrire "Longueur de la phrase :", lng
+    Ecrire "Nombre de mots :", nbMots
+    Ecrire "Nombre de voyelles :", nbVoyelles
+fin
