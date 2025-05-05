@@ -19,8 +19,6 @@ debut
         Lire caractere
     Fin Tant que
 
-    nbMots := nbMots + 1
-
 
     Ecrire "Longueur de la phrase :", lng
     Ecrire "Nombre de mots :", nbMots
